@@ -1,4 +1,5 @@
 feeds(){
+feed "linuxtips" "https://www.youtube.com/feeds/videos.xml?channel_id=UCJnKVGmXRXrH49Tvrx5X0Sw"
 feed "wolfgang" "https://www.youtube.com/feeds/videos.xml?channel_id=UCsnGwSIHyoYN0kiINAGUKxg"
 feed "gnew" "https://www.youtube.com/feeds/videos.xml?channel_id=UC1WmOVkbVU80x2dngMd7AoQ"
 feed "aquele" "https://www.youtube.com/feeds/videos.xml?channel_id=UCopNlF81S59R5sE2jYxGz2A"
