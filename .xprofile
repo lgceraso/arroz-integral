@@ -1,0 +1,3 @@
+setxkbmap br
+setxkbmap -option caps:escape
+xset -dpms ; xset s off
