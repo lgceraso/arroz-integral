@@ -24,7 +24,7 @@ alias repo='wget -r --no-parent'
 alias httpd-log='tail /var/log/httpd/access_log -f'
 alias rss='~/Documents/IT/Scripts/rss.sh'
 alias att='sudo reflector --protocol https --age 1 --sort rate --save /etc/pacman.d/mirrorlist '
-alias rice='cd ~/ && cp -v .gitconfig .bashrc .vimrc .xprofile .rice/ && cp -v .sfeed/sfeedrc .rice/.sfeed/sfeedrc && cd .rice && echo "upgit arroz-integral" | xclip -selection c; cd - && echo "upgit arroz-integral"'
+alias rice='cd ~/ && cp -v .gitconfig .bashrc .vimrc .xprofile Documents/GitHub/arroz-integral && cp -v .sfeed/sfeedrc Documents/GitHub/arroz-integral/.sfeed/sfeedrc && cd Documents/GitHub/arroz-integral && echo "upgit arroz-integral" | xclip -selection c; cd - && echo "upgit arroz-integral"'
     
 #funcs
 vidgetinfo(){
@@ -86,10 +86,8 @@ upgit(){
     repo=$*
     if [[ $repo == "imgs" ]]; then
         cd ~/Pictures
-    elif [[ $repo == "arroz-integral" ]];then
-        cd ~/.rice
     else
-        cd ~/Documents/Git/$repo
+        cd ~/Documents/GitHub/$repo
     fi
     git rm -r --cached .
     git add .
