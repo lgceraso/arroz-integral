@@ -1,0 +1,8 @@
+/*my firefox css file*/
+#titlebar{visibility:collapse;}
+#back-button,#forward-button{display:none!important;}
+#pageActionButton{display:none;}
+#tracking-protection-icon-box{visibility:collapse!important;}
+#tracking-protection-icon-container{display:none;}
+#identity-box{display:none!important;}
+.urlbar-input-box{text-align:center!important;}

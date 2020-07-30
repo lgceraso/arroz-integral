@@ -1,0 +1,23 @@
+To Download:
+Hermit Font (~/.local/share/fonts/*)
+GVFS
+
+To Centered Windows:
+in ~/.config/openbox/lxde-rc.xml
+substitute "<applications/>" with:
+    <applications>
+    <application type="normal">
+      <position>
+        <x>center</x>
+        <y>center</y>
+      </position>
+    </application>
+  </applications>
+
+Clock Format:
+%H:%M:%S
+Bold Font
+
+Themes:
+Breeze
+Arc-Dark

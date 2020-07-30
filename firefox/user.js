@@ -1,0 +1,10 @@
+user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
+user_pref("extensions.pocket.enabled", false);
+user_pref("reader.parse-on-load.enabled", false);
+user_pref("browser.urlbar.openViewOnFocus", false);
+user_pref("browser.urlbar.update1", false);
+user_pref("browser.urlbar.update1.interventions", false);
+user_pref("browser.urlbar.update1.searchTips", false);
+user_pref("full-screen-api.warning.delay", -1);
+user_pref("full-screen-api.warning.timeout", 0);
+user_pref("layers.acceleration.force-enabled", true);
