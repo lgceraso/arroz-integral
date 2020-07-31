@@ -13,6 +13,8 @@ substitute "<applications/>" with:
       </position>
     </application>
   </applications>
+To mouse follow:
+        <followMouse>yes</followMouse>
 
 Clock Format:
 %H:%M:%S
