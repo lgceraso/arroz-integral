@@ -26,6 +26,7 @@ alias httpd-log='tail /var/log/httpd/access_log -f'
 alias rss='~/Documents/IT/Scripts/rss.sh'
 alias att='sudo reflector --protocol https --age 1 --sort rate --save /etc/pacman.d/mirrorlist '
 alias rice='cd ~/ && cp -v .gitconfig .bashrc .vimrc .xprofile Documents/GitHub/arroz-integral && cp -v .sfeed/sfeedrc Documents/GitHub/arroz-integral/.sfeed/sfeedrc && cd Documents/GitHub/arroz-integral && echo "upgit arroz-integral" | xclip -selection c; cd - && echo "upgit arroz-integral"'
+alias upsv='sudo ~/Documents/IT/Scripts/webtosrv.sh'
     
 #funcs
 vidgetinfo(){
