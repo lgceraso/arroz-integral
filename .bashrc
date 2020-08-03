@@ -1,18 +1,12 @@
-# If not running interactively, don't do anything
-[[ $- != *i* ]] && return
-#export PROMPT_COMMAND="echo -n \[\$(date +%H:%M:%S)\]\ " #enable this for timestamps
-export PS1="\[$(tput bold)\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
-export EDITOR=vim
+PS1='\[\e[0;1;91m\][\[\e[m\] \[\e[0m\]\w\[\e[m\] \[\e[0;1;91m\]]\[\e[0;1m\]$\[\e[m\] \[\e0'
+
 #history settings
 HISTTIMEFORMAT="%F %T "
 HISTSIZE=5000
-#bash-completion
-if [ -f /etc/bash_completion ]; then
-     . /etc/bash_completion
-fi
+
 #alias
 alias ls='ls --color=auto'
-alias lsd='stat --format "%a %n"'
+alias lss='stat --format "%a %n"'
 alias py='python'
 alias xbox='ssh -oKexAlgorithms=+diffie-hellman-group1-sha1'
 alias mp3='youtube-dl -f bestaudio --extract-audio --audio-format mp3 --output "%(title)s.%(ext)s"'
