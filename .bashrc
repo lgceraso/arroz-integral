@@ -12,6 +12,7 @@ if [ -f /etc/bash_completion ]; then
 fi
 #alias
 alias ls='ls --color=auto'
+alias lsd='stat --format "%a %n"'
 alias py='python'
 alias xbox='ssh -oKexAlgorithms=+diffie-hellman-group1-sha1'
 alias mp3='youtube-dl -f bestaudio --extract-audio --audio-format mp3 --output "%(title)s.%(ext)s"'
